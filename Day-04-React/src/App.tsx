@@ -115,9 +115,8 @@ export default function App() {
 
 // 02) ---------------------------------------------------- useMemo Hook --------------------------------------------------------------
 
-// useMemo -> memoizes a computed value
-// It caches the result of a function and only recalculates 
-// when its dependencies change.
+// useMemo -> memorizes a computed value
+// It caches the result of a function and only recalculates when its dependencies change.
 // Useful to avoid expensive calculations or unnecessary re-renders
 
 
@@ -180,7 +179,7 @@ export default function App() {
 
 
 // 03) ---------------------------------------------------- useCallback Hook --------------------------------------------------------------
-// useCallback -> memoizes a function
+// useCallback -> memorizes a function
 // Keeps the same function reference between renders
 // Useful when passing functions to child components or useEffect
 // Only recreates the function when dependencies change
