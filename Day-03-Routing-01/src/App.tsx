@@ -1,3 +1,22 @@
+/*
+ REACT ROUTING → PART 01 (BASIC / COMPONENT-BASED ROUTING)
+=================================================================
+ Concept
+------------------------------------------------------
+Declarative Routing:
+→ Routes are defined as JSX elements inside the component tree.
+→ Works like defining UI — each <Route> is nested inside <Routes> just like other React components.
+→ Ideal for small or medium-sized projects and quick setups.
+
+ When to Use
+------------------------------------------------------
+→ Simple routing setups.
+→ You want to keep all routes directly inside App.tsx.
+→ You don’t need loaders, actions, or lazy data fetching.
+→ Great for learning or small demos.
+*/
+
+
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
@@ -14,7 +33,7 @@ export default function App() {
     //     It keeps the UI in sync with the URL
     <BrowserRouter>
 
-      {/* Since we use Header inside the layout (Header + Main Part) */}
+      {/* commented since we use Header inside the layout (Header + Main Part) */}
       {/* <Header /> */}
 
       {/* All route configurations go inside <Routes> */}
