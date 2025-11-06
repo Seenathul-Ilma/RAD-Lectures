@@ -1,5 +1,3 @@
-// REACT ROUTING → PART 01 (BASIC / COMPONENT-BASED ROUTING)
-
 /*
  REACT ROUTING → PART 02 (ADVANCED / CONFIGURATION-BASED ROUTING)
 =================================================================
@@ -76,7 +74,7 @@ const App = () => {
 export default App
 
 
-// React Routing → Part 01 (Basic / Component-based Routing)
+// REACT ROUTING → PART 01 (BASIC / COMPONENT-BASED ROUTING)
 
 /* import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
